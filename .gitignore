@@ -1,10 +1,21 @@
-# --------------------
-# MODULES
-# --------------------
-node_modules/
-package-lock.json
+# =========================
+# Root folders
+# =========================
+.history/
+.vscode/
 
 # --------------------
-# ENVIROMENT
+# CLIENT
 # --------------------
-.env
+client/.env*
+client/node_modules/
+client/package-lock.json
+
+# --------------------
+# SERVER
+# --------------------
+server/.env
+server/node_modules/
+server/package-lock.json
+
+.gitignore
